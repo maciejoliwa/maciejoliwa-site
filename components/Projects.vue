@@ -20,6 +20,7 @@ export default {
 
     data(): ProjectsData {
         return {
+            //@ts-ignore
             projects: this.prop_projects
         }
     },
@@ -27,6 +28,7 @@ export default {
     methods: {
 
         isLast(index: number): boolean {
+            //@ts-ignore
             return (index == (this.projects.length - 1));
         },
 
