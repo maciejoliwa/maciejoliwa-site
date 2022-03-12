@@ -7,7 +7,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'maciejoliwa-site',
+    title: 'Maciej Oliwa | Aspiring Developer',
     htmlAttrs: {
       lang: 'en'
     },
