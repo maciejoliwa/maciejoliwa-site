@@ -1,5 +1,8 @@
 <template>
+<div class="wrapper">
   <Hero/>
+  <bottom-bar/>
+</div>
 </template>
 
 <script lang="ts">
