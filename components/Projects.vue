@@ -2,7 +2,7 @@
   <section class="projects mt-2 md:mt-6 text-center md:max-w-2xl xl:max-w-6xl">
       <div class="text-md select-none md:text-xl inline-block hover:text-pink-600 transition-all hover:font-bold duration-500" v-for="(project, index) in projects" :key="project.id">
           {{ project }}
-          <span class="text-black" v-if="!isLast(index)">&nbsp;●&nbsp;</span>
+          <span class="text-black text-gray-500" v-if="!isLast(index)">&nbsp;●&nbsp;</span>
       </div>
   </section>
 </template>
